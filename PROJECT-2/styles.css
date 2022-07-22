@@ -1,6 +1,7 @@
 * {
     background-color: #E5E5E5;
     margin-left: 65px;
+    margin-right: 65px;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 700;
@@ -10,6 +11,7 @@ h1, h2 {
     color: whitesmoke;
     background-color: black;
     width: 1310px;
+    padding-left: 3px;
 
 }
 
@@ -22,7 +24,7 @@ h2 {
     font-size: 40px;
     margin-bottom: 30px;
     margin-top: 30px;
-    }
+}
 
 ul {
     font-size: 25px;
@@ -32,4 +34,5 @@ p {
     font-size: 25px;
     width: 1303px;
     text-align: left;
+    
 }
