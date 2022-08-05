@@ -1,8 +1,8 @@
-/** {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}*/
+    }
 
 .synopsis {
     color: #7e8184;
@@ -29,6 +29,9 @@
 .page {
     width: 600px;
     margin: 0 auto;
+    background-image: url(https://www.m-c-s.xyz/static/41e25913e701ac02fed1dc60de07ff24/7c693/bg.webp);
+    background-size: contain;
+    background-position: center;
 }
 
 .call-to-action {
@@ -114,4 +117,13 @@ p:last-of-type {
 .page > p:first-of-type {
     color: #7e8184;
     font-style: italic;
+    
 }
+
+#burrito {
+    width: 800px;
+    height: 400px;
+    border: 10px solid rgba(0,255,0,.5);
+    padding: 20px;
+    background:  radial-gradient(at top left, yellow, green);
+    background-origin: border-box;}
