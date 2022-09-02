@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    width: 1440px;
+}
+
+.header-container {
+    position: relative;    
+    display: flex;
+    margin-bottom: 140px;
+    
+}
+
+.header {
+    position: fixed;
+    padding: 50px;
+    display: flex;
+    width: 1440px;
+    height: auto;
+    justify-content: space-between;
+    background: #fff;
+    font-size: 50px;
+    color: #E50043;
+    
+        
+}
+
+a:link,
+a:visited {
+  color: #E50043;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* .text-logo {
+    position: fixed; 
+} */
+
+/* .menu {
+    position: fixed;
+}  */
+
+.menu > li {
+margin-right: 25px;
+display: inline;
+}
+
+.menu > li:last-of-type {
+margin-right: 0;
+}
+
+.hero-container {
+    z-index: 10;
+    display: flex;
+    width: auto;
+    height: 950px;
+    background-image: url(images/evian_origins_logo.png);
+    background-origin: border-box;
+    background-size:contain;
+    background-position: center;
+    margin-bottom: 150px;
+}
+
+.text-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px
+}
+
+.description-frame {
+    display: flex;
+    border: 3px solid #F8BFC7;
+    border-radius: 20px;
+    width: 1046px;
+    height: auto;
+    background-color: #fff;
+    padding: 24px;
+}
+    
+.description-text {
+    font-family: Arial;
+    font-size: 25px;
+    line-height: 28.75px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    list-style-type: none;
+    flex-direction: column;
+}
+
+.description-text > li:first-of-type {
+    margin-bottom: 1.25em;
+}
+
+.items-container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.items-list {
+    display: flex;
+    flex-direction: row;
+    height: 969px;
+    margin-bottom: 156px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    
+}
+
+.item-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    width: 250px;
+    margin-top: 48px;
+    text-align: center;
+           
+}
+
+.ing-container {
+    display: flex;
+    justify-content: center;
+}
+
+.ing-frame {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px 30px 80px;
+     
+}
+
+.ing-description {
+    /* display: flex; */
+    width: 749px;
+    /* justify-content: flex-end; */
+
+}
+
+.ing-text {
+    margin-bottom: 1.25em;
+}
+
+.ing-text > li:first-of-type {
+    margin: 0;
+}
+
+.footer-container {
+    display: flex;
+    margin-top: 150px;
+    height: 140px;
+    width: 1440px;
+    background-color: #F8BFC7;
+    align-items: center;
+}
+
+.footer {
+    font-family: Arial;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 57px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 50px;
+    color: #FFFFFF;
+}
