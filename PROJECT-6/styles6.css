@@ -96,7 +96,7 @@ a:hover {
         /* font-size: calc(25px + (50 - 25) * ((100vw - 391px) / (591 - 391))); */
 
         /* line-height: 57px; */
-        width: 330px;
+        /* width: 330px; */
         height: 165px;
     }     
 }
